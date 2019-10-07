@@ -550,27 +550,28 @@ usersMapped = [
 // const {name,years : age,isAdmin = false} = user
 // console.log(name,age,isAdmin)
 
-function topSalary(salaries){
-    let max = 0
-    let arr = []
-    for(let [key,value] of Object.entries(salaries)){
-        if(max < value){
-            max = value
-            arr = [key,max]
-        }
-    }
-    console.log(arr);
-}
+// function topSalary(salaries){
+//     let max = 0
+//     let arr = []
+//     for(let [key,value] of Object.entries(salaries)){
+//         if(max < value){
+//             max = value
+//             arr = [key,max]
+//         }
+//     }
+//     console.log(arr);
+// }
 
-let salaries = {
-    "John": 100,
-    "Pete": 800,
-    "Mary": 250,
-    "Logan": 500
-};
-topSalary(salaries)
+// let salaries = {
+//     "John": 100,
+//     "Pete": 800,
+//     "Mary": 250,
+//     "Logan": 500
+// };
+// topSalary(salaries)
 
 
+//****************laptop comment */
 
 
 
