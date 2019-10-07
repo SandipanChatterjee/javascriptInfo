@@ -572,8 +572,59 @@ usersMapped = [
 
 
 
+//Strings 
+// const obj = {
+//   a : 20
+// }
+// obj = {
+//   b : 30
+// }
+// console.log(obj)
 
 
+// let str = "hi";
+// str = "Hello"
+// console.log(str);
+
+// let str1 = "hi"
+// str1[0] = "H";
+// console.log(str1);
+
+// console.log( 'Interface'[0].toLowerCase() ); // 'i'
+
+// let str = 'Widget with id';
+// console.log( str.indexOf('id') ) // 0
+// if(str.indexOf('W') !== 1){
+//   console.log("Found")
+// }
+
+
+//Task
+// function ucFirst(str){
+//   let res = str.charAt(0).toUpperCase() + str.slice(1)
+//   console.log(res)
+//   return res
+// }
+
+// console.log(ucFirst("john") == "John")
+
+// function checkSpam(str){
+//   let res = str.toLowerCase();
+//   return res.includes("viagra")
+// }
+
+// console.log(checkSpam('buy ViAgRA now') == true)
+// console.log(checkSpam('free xxxxx') == true)
+// console.log(checkSpam("innocent rabbit") == false)
+
+// function truncate(str,maxlength){
+//   let res = str 
+//   res.length > maxlength ? res = res.slice(0,maxlength) + "..." : res
+//   console.log(res)
+
+// }
+// truncate("What I'd like to tell on this topic is :", 20)
+// truncate("Hi everyone!",20)
 
 
 
