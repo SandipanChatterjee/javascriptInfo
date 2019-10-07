@@ -570,13 +570,7 @@ usersMapped = [
 // };
 // topSalary(salaries)
 
-// let salaries = {
-//     "John": 100,
-//     "Pete": 800,
-//     "Mary": 250,
-//     "Logan": 500
-// };
-// topSalary(salaries)
+
 
 
 
