@@ -627,9 +627,29 @@ usersMapped = [
 // truncate("Hi everyone!",20)
 
 
+//Array
 
+// let arr = ["Apple", "Orange", "Pear"];
+// for (let key in arr) {
+//   console.log( key ); // Apple, Orange, Pear
+// }
 
+// let arr = [1, 2, 3];
+// console.log( arr ); // 1,2,3
+// console.log (arr.toString() === '1,2,3' ); // true
 
+// let arr = ["a", "b"];
+
+// arr.push(function() {
+//   console.log( this );
+// })
+
+// arr[2](); // 
+
+//task 
+
+let arr = ["Jazz","Blues"]
+arr.push("Rock-n-roll")
 
 
 
