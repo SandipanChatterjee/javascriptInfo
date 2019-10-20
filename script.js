@@ -629,9 +629,6 @@ usersMapped = [
 // //classes
 
 // // class CoffeeMachine {
-
-  
-
 // //   waterAmount = 0; // the amount of water inside
 
 // //   constructor(power) {
@@ -678,6 +675,30 @@ usersMapped = [
 // // r.play()
 // r.hide()
 // r.age1()
+
+// Promise
+
+fetch("https://jsonplaceholder.typicode.com/users")
+.then((res) => res.json())
+.then(res => {
+  console.log(res)
+  const arr = res.map(res => res.id)
+  return arr
+})
+.then(res => console.log(res))
+.catch(err => console.log(err))
+
+
+// new Promise((res,rej)=>{
+//   setTimeout(()=>res(1),1000)
+// }).then((result)=>{
+//   console.log(result)
+//   return result * 2
+// }).then(result => result *2)
+// .then(result => result * 2)
+// .then(result => console.log(result))
+
+
 
 
 
