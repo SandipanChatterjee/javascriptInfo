@@ -626,58 +626,58 @@ usersMapped = [
 // truncate("What I'd like to tell on this topic is :", 20)
 // truncate("Hi everyone!",20)
 
-//classes
+// //classes
 
-// class CoffeeMachine {
+// // class CoffeeMachine {
 
   
 
-//   waterAmount = 0; // the amount of water inside
+// //   waterAmount = 0; // the amount of water inside
 
-//   constructor(power) {
-//     this.power = power;
-//     console.log( `Created a coffee-machine, power: ${power}` );
+// //   constructor(power) {
+// //     this.power = power;
+// //     console.log( `Created a coffee-machine, power: ${power}` );
+// //   }
+
+// // }
+
+// // // create the coffee machine
+// // let coffeeMachine = new CoffeeMachine(100);
+// // coffeeMachine.waterAmount = 200;
+
+// // class Machine extends CoffeeMachine {}
+// // let machine = new Machine(150)
+// // machine._waterAmount = 200
+// // console.log(machine._waterAmount)
+
+// class Animal {
+//   constructor(name){
+//     this.name = name
 //   }
-
+//   play(){
+//     console.log(`${this.name} playes`)
+//   }
 // }
 
-// // create the coffee machine
-// let coffeeMachine = new CoffeeMachine(100);
-// coffeeMachine.waterAmount = 200;
+// class Rabbit extends Animal{
+//   constructor(name,age){
+//     super(name)
+//     this.age = age
+//   }
+//   hide(){
+//     super.play()
+//     console.log(`${this.name} hides`)   
+//   }
+//   age1(){
+//     console.log(`${this.age}`)
+//   }
+// }
 
-// class Machine extends CoffeeMachine {}
-// let machine = new Machine(150)
-// machine._waterAmount = 200
-// console.log(machine._waterAmount)
+// let r = new Rabbit("Rabbit",12)
 
-class Animal {
-  constructor(name){
-    this.name = name
-  }
-  play(){
-    console.log(`${this.name} playes`)
-  }
-}
-
-class Rabbit extends Animal{
-  constructor(name,age){
-    super(name)
-    this.age = age
-  }
-  hide(){
-    super.play()
-    console.log(`${this.name} hides`)   
-  }
-  age1(){
-    console.log(`${this.age}`)
-  }
-}
-
-let r = new Rabbit("Rabbit",12)
-
-// r.play()
-r.hide()
-r.age1()
+// // r.play()
+// r.hide()
+// r.age1()
 
 
 
